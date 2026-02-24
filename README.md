@@ -1,4 +1,4 @@
-# 🐢 ros_tutorials
+#  ros_tutorials
 
 > A complete ROS2 learning repository covering the full **turtlesim** simulation engine in C++, three tutorial nodes (keyboard teleop, autonomous square drawing, turtle mimic), and a Python package demonstrating ROS2 services, parameters, and dynamic publishers.
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 This repository is a hands-on exploration of core ROS2 concepts built around the classic **turtlesim** simulation. It is structured in two layers:
 
@@ -20,7 +20,7 @@ This repository is a hands-on exploration of core ROS2 concepts built around the
 
 ---
 
-## ✨ What's Implemented
+##  What's Implemented
 
 | Node | Language | What it does |
 |------|----------|--------------|
@@ -35,7 +35,7 @@ This repository is a hands-on exploration of core ROS2 concepts built around the
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
                         ┌──────────────────────────────────────────────────┐
@@ -89,7 +89,7 @@ This repository is a hands-on exploration of core ROS2 concepts built around the
 
 ---
 
-## 📦 Repository Structure
+##  Repository Structure
 
 ```
 ros_tutorials/
@@ -125,7 +125,7 @@ ros_tutorials/
 
 ---
 
-## 📨 ROS2 Interface Reference
+##  ROS2 Interface Reference
 
 ### turtlesim_node — Topics
 
@@ -177,7 +177,7 @@ ros_tutorials/
 
 ---
 
-## 🛠️ Building & Running
+##  Building & Running
 
 ### Prerequisites
 
@@ -202,7 +202,7 @@ source install/setup.bash
 
 ---
 
-## 🚀 Running the Nodes
+##  Running the Nodes
 
 ### Start turtlesim
 
@@ -298,7 +298,7 @@ ros2 run my_package dynamic_publisher
 
 ---
 
-## 🔍 Key Implementation Details
+##  Key Implementation Details
 
 **`draw_square` — closed-loop state machine:** The node subscribes to `turtle1/pose` and uses position and velocity feedback to precisely sequence four states. Goal positions are computed geometrically from the current pose (`cos(θ) × 2`, `sin(θ) × 2`) ensuring the square scales correctly regardless of starting orientation.
 
@@ -314,7 +314,7 @@ ros2 run my_package dynamic_publisher
 
 ---
 
-## 🐢 Turtle Sprites
+##  Turtle Sprites
 
 A different turtle image is used for each ROS2 distribution, selected randomly on spawn:
 
@@ -322,7 +322,7 @@ A different turtle image is used for each ROS2 distribution, selected randomly o
 
 ---
 
-## 📚 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -343,7 +343,7 @@ GitHub: github.com/emins1856
 
 ---
 
-## 📄 License
+##  License
 
 Distributed under the **BSD 3-Clause License** — see [LICENSE](LICENSE) for details.
 Original turtlesim source © Willow Garage, Inc.
