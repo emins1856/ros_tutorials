@@ -252,7 +252,7 @@ Turtle2 will now mirror every movement of turtle1 in real time.
 
 ---
 
-## 🌡️ Python Tutorial Package (my_package)
+##  Python Tutorial Package (my_package)
 
 ### Temperature conversion service
 
